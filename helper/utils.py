@@ -73,7 +73,7 @@ def generate_response(message: str) -> str:
     elif message == '/help':
         return 'You can ask almost anything here, but do not belive whatever this bot says. :-)'
     elif message == '/start':
-        return 'Hi, this is a chat-bot that uses OpenAI GPT-3, developed by me with love. I will not spam you for sure.'
+        return 'Hello! Im a chatbot created by Harshavardhan. How can I help you today?'
     else:
         result = text_complition(message)
         if result['status'] == 1:
