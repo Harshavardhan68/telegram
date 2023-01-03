@@ -27,7 +27,7 @@ def telegram_api():
         if data['secret_token'] == os.getenv('HEADER_TOKEN'):
             if data['is_text'] and not data['is_bot']:
                 response = generate_response(data['message'])
-                _ = save_message_to_db(data, response)
+              #  _ = save_message_to_db(data, response)
                 _ = send_message(data['sender_id'], response)
             elif data['is_bot']:
                 response = 'I know you are a bot.'
