@@ -63,7 +63,7 @@ def generate_response(message: str) -> str:
         - str: formated response for the command
     '''
     if message == '/contactme':
-        return 'You can reach out to me here: https://rajkkapadia-portfolio.onrender.com/'
+        return 'You can reach out to me here: https://instagram.com/k_harshavardhan_?igshid=ZDdkNTZiNTM='
     elif message == '/youtube':
         return 'You can watch my video tutorials here: https://www.youtube.com/channel/UCOT01XvBSj12xQsANtTeAcQ'
     elif message == '/github':
