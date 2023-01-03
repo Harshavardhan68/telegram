@@ -67,7 +67,7 @@ def generate_response(message: str) -> str:
     elif message == '/youtube':
         return 'You can watch my video tutorials here: https://youtube.com/@Harshavaardhann'
     elif message == '/buyacoffee':
-        return 'If you like my work please consider buying me a coffee here: https://www.buymeacoffee.com/rajkkapadia'
+        return 'If you like my work please consider buying me a coffee here: https://www.buymeacoffee.com/Harshavardhann '
     elif message == '/start':
         return 'Hello! Im a chatbot created by Harshavardhan. How can I help you today?'
     else:
