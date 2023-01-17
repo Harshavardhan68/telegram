@@ -3,7 +3,7 @@ import os
 
 from outside_apis.telegram_api import send_message, set_webhook, set_menu_commands
 from helper.utils import process_request, generate_response
-from outside_apis.database_api import save_message_to_db
+#from outside_apis.database_api import save_message_to_db
 
 
 from flask import Flask, request
