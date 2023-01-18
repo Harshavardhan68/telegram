@@ -1,0 +1,1 @@
+worker : gunicorn run:app
