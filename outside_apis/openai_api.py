@@ -22,7 +22,7 @@ def text_complition(prompt: str) -> dict:
     try:
         response = openai.Completion.create(
             model='text-davinci-003',
-            prompt=f'Human: {prompt}\nAI: ',
+            prompt=f'Human: {prompt}\nHarshavardhan: ',
             temperature=0.9,
             max_tokens=150,
             top_p=1,
