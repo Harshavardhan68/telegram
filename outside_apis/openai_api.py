@@ -1,9 +1,3 @@
-TOKEN="5833201640:AAFsPC9V_ReaSZ3KPtqrNPgVW4Zd28R0XLc"
-HEADER_TOKEN="Harshavardhan"
-OPENAI_API_KEY="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"
-ME="1411294375"
-
-
 import os
 
 
@@ -34,7 +28,7 @@ def text_complition(prompt: str) -> dict:
             top_p=1,
             frequency_penalty=0,
             presence_penalty=0.6,
-            stop=['Human:', 'AI:']
+            stop=['Human:', 'Harshavardhan:']
         )
         return {
             'status': 1,
