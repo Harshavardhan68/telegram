@@ -74,7 +74,7 @@ def generate_response(message: str) -> str:
         return 'It convert your descriptions into images'
     else:
          result = text_complition(message)
-        if result['status'] == 1:
-            return result['response'].strip()
+         if result['status'] == 1:
+             return result['response'].strip()
         else:
             return 'Sorry, I am out of service at this moment.'
