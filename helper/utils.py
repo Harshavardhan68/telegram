@@ -66,11 +66,11 @@ def generate_response(message: str) -> str:
         return 'You can reach out to me here: https://instagram.com/k_harshavardhan_?igshid=ZDdkNTZiNTM='
     elif message == '/Imagechatbot': 
         return 'It convert your descriptions into images'
-     elif message == '/youtube':
+   elif message == '/youtube':
         return 'You can watch my video tutorials here: https://youtube.com/@Harshavaardhann'
-     elif message == '/buyacoffee':
+   elif message == '/buyacoffee':
         return 'If you like my work please consider buying me a coffee here: https://www.buymeacoffee.com/Harshavardhann '
-     elif message == '/start':
+   elif message == '/start':
         return 'Hello! Im a chatbot created by Harshavardhan. How can I help you today?'
     else:
          result = text_complition(message)
