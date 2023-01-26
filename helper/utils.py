@@ -64,7 +64,7 @@ def generate_response(message: str) -> str:
     '''
     if message == '/contactme':
         return 'You can reach out to me here: https://instagram.com/k_harshavardhan_?igshid=ZDdkNTZiNTM='
-elif message == '/Imagechatbot': 
+    elif message == '/Imagechatbot': 
         return 'It convert your descriptions into images'
     elif message == '/youtube':
         return 'You can watch my video tutorials here: https://youtube.com/@Harshavaardhann'
