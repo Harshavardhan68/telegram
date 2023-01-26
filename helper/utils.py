@@ -72,7 +72,7 @@ def generate_response(message: str) -> str:
         return 'Hello! Im a chatbot created by Harshavardhan. How can I help you today?'
     elif message == '/Imagechatbot': 
         return 'It convert your descriptions into images'
-   else:
+    else:
          result = text_complition(message)
          if result['status'] == 1:
              return result['response'].strip()
