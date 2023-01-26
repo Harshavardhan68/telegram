@@ -66,12 +66,12 @@ def generate_response(message: str) -> str:
         return 'You can reach out to me here: https://instagram.com/k_harshavardhan_?igshid=ZDdkNTZiNTM='
     elif message == '/youtube':
         return 'You can watch my video tutorials here: https://youtube.com/@Harshavaardhann'
-    elif message == '/github':
-        return 'You can get helpful piece of code here: https://github.com/RajKKapadia'
+    elif message == '/website:
+        return 'click here to visit my website https://www.smtart.ml/ '
     elif message == '/buyacoffee':
-        return 'If you like my work please consider buying me a coffee here: https://www.buymeacoffee.com/Harshavardhann'
+        return 'If you like my work please consider buying me a coffee here: https://www.buymeacoffee.com/Harshavardhann '
     elif message == '/Imagechatbot':
-        return 'It’s converts your descriptions into images. :-You can reach out by clicking here https://t.me/Harshaimage_bot)'
+        return 'It’s converts your descriptions into images. :-You can reach out by clicking here https://t.me/Harshaimage_bot )'
     elif message == '/start':
         return 'Hello! Im a chatbot created by Harshavardhan. How can I help you today?'
     else:
