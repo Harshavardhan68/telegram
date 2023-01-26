@@ -69,11 +69,11 @@ def generate_response(message: str) -> str:
     elif message == '/github':
         return 'You can get helpful piece of code here: https://github.com/RajKKapadia'
     elif message == '/buyacoffee':
-        return 'If you like my work please consider buying me a coffee here: https://www.buymeacoffee.com/rajkkapadia'
-    elif message == '/help':
-        return 'You can ask almost anything here, but do not belive whatever this bot says. :-)'
+        return 'If you like my work please consider buying me a coffee here: https://www.buymeacoffee.com/Harshavardhann'
+    elif message == '/Imagechatbot:
+        return 'It’s converts your descriptions into images. :-)'
     elif message == '/start':
-        return 'Hi, this is a chat-bot that uses OpenAI GPT-3, developed by me with love. I will not spam you for sure.'
+        return 'Hello! Im a chatbot created by Harshavardhan. How can I help you today?'
     else:
         result = text_complition(message)
         if result['status'] == 1:
