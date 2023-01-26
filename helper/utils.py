@@ -71,7 +71,7 @@ def generate_response(message: str) -> str:
     elif message == '/buyacoffee':
         return 'If you like my work please consider buying me a coffee here: https://www.buymeacoffee.com/Harshavardhann'
     elif message == '/Imagechatbot':
-        return 'It’s converts your descriptions into images. :-)'
+        return 'It’s converts your descriptions into images. :-You can reach out by clicking here https://t.me/Harshaimage_bot)'
     elif message == '/start':
         return 'Hello! Im a chatbot created by Harshavardhan. How can I help you today?'
     else:
