@@ -66,7 +66,7 @@ def generate_response(message: str) -> str:
         return 'You can reach out to me here: https://instagram.com/k_harshavardhan_?igshid=ZDdkNTZiNTM='
     elif message == '/youtube':
         return 'You can watch my video tutorials here: https://youtube.com/@Harshavaardhann'
-    elif message == '/website:
+    elif message == '/website':
         return 'click here to visit my website https://www.smtart.ml/ '
     elif message == '/buyacoffee':
         return 'If you like my work please consider buying me a coffee here: https://www.buymeacoffee.com/Harshavardhann '
