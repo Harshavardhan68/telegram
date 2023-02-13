@@ -3,10 +3,9 @@ Hi everyone, this is repository for my personal demo project on connecting Teleg
 * text messgaes
 * it has a built-in menu options as well
 
-You can interact with this bot [here](http://t.me/askme_anything_bot).
+You can interact with this bot [here](https://openinapp.co/23hsp?fbclid=PAAaYCbXvJnGrfMa75zVqWvgrdYXyn5_n5HNeXZUc_nFrxrUGoElWrM7kubCI).
 
-![GitHub User's stars](https://img.shields.io/github/stars/RajKKapadia?style=for-the-badge)
-![GitHub followers](https://img.shields.io/github/followers/RajKKapadia?style=for-the-badge)
+
 
 ### Youtube
 I have recorded a quick video on the setup of this chat-bot, in case you want to replicate the work, you can watch it [here](https://youtu.be/AdfQAbzxw30).
@@ -27,10 +26,8 @@ To replicate the work of this repository and run it locally, you need to follow 
     HEADER_TOKEN=A RANDOM STRING FOR SECURITY
     OPENAI_API_KEY=OPENAI API KEY
     ME=YOUR TELEGRAM ID
-    CONNECTION_STRING=mongodb+srv://USERNAME:PASSWORD@SOMETHING.mongodb.net
-    DB_NAME=MONGODB DB NAME
-    COLLECTION_NAME=MONGO DB COLLECTION NAME
-    ```
+    
+     ```
 * create a virtual environment and activate it before installing the packages
 * install all the required dependencies from the `requirements.txt` file
 ```python
@@ -75,9 +72,7 @@ pass the following body with the request in `raw` `json` format
 }
 ```
 # About me
-I am `Raj Kapadia`, I am passionate about `AI/ML/DL` and their use in different domains, I also love to build `chatbots` using `Google Dialogflow ES/CX`, I have backend development experience with Python[Flask], and NodeJS[Express] For any work, you can reach out to me at...
+I am `Harshavardhan, I a student from ECE
 
-* [LinkedIn](https://www.linkedin.com/in/rajkkapadia/)
-* [Fiverr](https://www.fiverr.com/rajkkapadia​)
-* [Upwork](https://www.upwork.com/freelancers/~0176aeacfcff7f1fc2)
-* [Youtube](https://www.youtube.com/channel/UCOT01XvBSj12xQsANtTeAcQ)
+* [YouTube](https://youtube.com/@Harshavaardhann)
+
