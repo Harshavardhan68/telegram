@@ -8,15 +8,13 @@ You can interact with this bot [here](https://openinapp.co/23hsp?fbclid=PAAaYCbX
 
 
 ### Youtube
-I have recorded a quick video on the setup of this chat-bot, in case you want to replicate the work, you can watch it [here](https://youtu.be/AdfQAbzxw30).
+I have recorded a quick video on the setup of this chat-bot, in case you want to replicate the work, you can watch it [here](https://youtu.be/pGuJNM_4F5g).
 
 ### What you will need
 There are couple of things that you need before you get started following this repository.
 * OpenAI API key, since it is open to all, you can create an account [here](https://openai.com/) and access the key.
-* You need a telegram bot API key as well, you can get it with interacting with Botfather on Telegeram [here](). Alternatively, you can one of my video on how to create a Telegram bor [here](https://youtu.be/oBQMPmCVY8c).
-* Mongodb Atlas account for saving all the messages to mongodb.
+* You need a telegram bot API key as well, you can get it with interacting with Botfather on Telegeram 
 * API requesting application like Postman, Insomnia, etc.
-* NGROK for local testing.
 
 ### How to use it
 To replicate the work of this repository and run it locally, you need to follow these steps:
