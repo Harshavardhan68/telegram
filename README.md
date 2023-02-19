@@ -20,10 +20,10 @@ There are couple of things that you need before you get started following this r
 To replicate the work of this repository and run it locally, you need to follow these steps:
 * create a `.env` file inside the root directory, create these environmental variables:
     ```
-    TOKEN=YOUR TELEGRAM BOT API KEY
-    HEADER_TOKEN=A RANDOM STRING FOR SECURITY
-    OPENAI_API_KEY=OPENAI API KEY
-    ME=YOUR TELEGRAM ID
+    TOKEN
+    HEADER_TOKEN
+    OPENAI_API_KEY
+    ME
     
      ```
 * create a virtual environment and activate it before installing the packages
