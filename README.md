@@ -73,11 +73,11 @@ pass the following body with the request in `raw` `json` format
 `Telegram menu`
 
 ```
-{
+
 youtube - my youtube 
 website - my website
 contactme - Contact me
-}
+
 ```
 
 # About me
