@@ -62,8 +62,8 @@ def generate_response(message: str) -> str:
     Returns:
         - str: formated response for the command
     '''
-    if message == '/contactme':
-        return 'You can reach out to me here: https://instagram.com/k_harshavardhan_?igshid=ZDdkNTZiNTM='
+    if message == '/what is your name':
+        return 'shiva sai'
     elif message == '/youtube':
         return 'You can watch my video tutorials here: https://youtube.com/@Harshavaardhann'
     elif message == '/website':
